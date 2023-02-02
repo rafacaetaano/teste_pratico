@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 
 	public Connection recuperarConexao() throws SQLException {
-		return DriverManager.getConnection("jdbc:mysql://localhost/empresa?useTimezone=true&serverTimezone=UTC", "root", "Rajoma1006139@");
+		return DriverManager.getConnection("jdbc:mysql://localhost/empresa?useTimezone=true&serverTimezone=UTC", "root", "root");
 	}
 	
 }
